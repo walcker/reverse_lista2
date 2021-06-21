@@ -21,6 +21,7 @@ int main ( void ){
           cin >> vetor1[i]; 
       }      // Insere elementos no vetor
       
+      //Imprime vetor original na tela
       for(int i = 0; i < 6; ++i){
         cout << vetor1[i] << " ";
       }
@@ -29,6 +30,7 @@ int main ( void ){
 
       i = 5;
       
+      //Inverte o vetor e imprime
       do{
         vetor2[i] = vetor1[i];
         cout << vetor2[i] << " ";
